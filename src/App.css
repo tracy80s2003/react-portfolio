@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Roboto Condensed" sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /*** HEADER/NAVBAR ***/
@@ -30,11 +30,11 @@ nav ul li {
 
 .navbar-brand {
   color: var(--primary-white) !important;
-  font-family: "Roboto Condensed" sans-serif !important;
+  font-family: "Roboto Condensed", sans-serif !important;
 
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid var(--primary-pink);
 }
 
@@ -42,41 +42,52 @@ nav ul li {
   border-top: 0.1875rem solid var(--primary-pink);
 }
 
-/* .App {
+/*** HOME ***/
+
+.header-wrapper {
+  position: relative;
+  background: url("https://media2.giphy.com/media/l3q2vQ6rlZutXsYN2/giphy.gif?cid=ecf05e47jfjjvdqae2m7i13era78s8m740f8ewck3qazxrl5&rid=giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-info h1 {
+  color: var(--primary-white);
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media(max-width: 360px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-main-offer {
+  border: 3px solid var(--primary-pink);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+@media(max-width: 360px) {
+  .header-wrapper {
+    background-color: black;
+  }
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
