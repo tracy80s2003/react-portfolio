@@ -5,7 +5,7 @@ const Home = () => {
         <div className="header-wrapper">
             <div className="main-info">
                 <h1>Digital Marketer</h1>
-                <a href="#" className="btn-main-offer">Contact Me</a>
+                <a href="/#" className="btn-main-offer">Contact Me</a>
             </div>
         </div>
     )
