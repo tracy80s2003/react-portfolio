@@ -11,7 +11,11 @@ export default class Contact extends Component {
               <p className="lead">
               Feel free to contact me for any work, comments or suggestions below...
               </p>
-              <h5>{resumeData.contactMe}</h5>
+              <h5><strong>{resumeData.name}</strong></h5>
+              <h5><strong>Cell:</strong> {resumeData.cell}</h5>
+              <h5><strong>Email:</strong> {resumeData.email}</h5>
+              <h5><strong>LinkedIn:</strong> {resumeData.linkedinId}</h5>
+              <h5><strong>GitHub:</strong> {resumeData.imagebaseurl}</h5>
             </div>
           </div>
           <div className="row">

@@ -21,7 +21,7 @@ export default class About extends Component {
                     {resumeData.name} | {resumeData.role}
                 </h4>
 
-                <img src={headshot} alt='Tracy Golden'></img>
+                <img className="headshot" src={headshot} alt='Tracy Golden'></img>
               </div>
             </aside>
           </div>

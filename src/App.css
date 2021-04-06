@@ -84,6 +84,8 @@ nav ul li {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 @media(max-width: 360px) {
@@ -108,6 +110,12 @@ nav ul li {
   margin-right: 15rem;
 }
 
+.headshot {
+  width: 25rem;
+  height: auto;
+  margin-bottom: 10rem;
+}
+
 /*** TESTIMONIALS ***/
 
 #testimonials {
@@ -127,6 +135,7 @@ nav ul li {
   margin-top: 5rem;
   margin-left: 15rem;
   margin-right: 15rem;
+  margin-bottom: 10rem;
 }
 
 /*** STICKY FOOTER ***/
@@ -134,7 +143,7 @@ nav ul li {
 .footer{
   margin-top: 1rem;
   padding: 1rem;
-  background-color: rgb(235, 195, 64);
+  background-color: #00FFFF;
   position: fixed;
   bottom: 0;
   left: 0;
