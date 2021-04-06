@@ -22,7 +22,7 @@ function App() {
         <Route path='/testimonials' component={Testimonials} exact />
       </Switch>
     {/* <Home /> */}
-    {/* <Footer /> */}
+    <Footer />
     </Router>
   );
 }

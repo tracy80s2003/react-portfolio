@@ -11,12 +11,13 @@ export default class Contact extends Component {
               <p className="lead">
               Feel free to contact me for any work, comments or suggestions below...
               </p>
+              <h5>{resumeData.contactMe}</h5>
             </div>
           </div>
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <h4>{resumeData.name}
+                <h4>
                 </h4>
               </div>
             </aside>

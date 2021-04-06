@@ -114,6 +114,11 @@ nav ul li {
   margin-top: 5rem;
   margin-left: 15rem;
   margin-right: 15rem;
+  font-style: italic;
+}
+
+#testimonialName {
+  font-weight: bold;
 }
 
 /*** PORTFOLIO ***/
@@ -122,4 +127,16 @@ nav ul li {
   margin-top: 5rem;
   margin-left: 15rem;
   margin-right: 15rem;
+}
+
+/*** STICKY FOOTER ***/
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(235, 195, 64);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }

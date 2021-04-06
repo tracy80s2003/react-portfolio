@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import resumeData from './resumeData.json';
-import headshot from '../Images/headshot.jpeg';
 
 export default class Testimonials extends Component {
   render() {
@@ -10,18 +9,17 @@ export default class Testimonials extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-              {resumeData.aboutme}
+              {resumeData.testimonials1} <p id="testimonialName">- Daniel Robles / Digital Ad Operations Specialist at Blue Chip Marketing Worldwide</p>
+              </p>
+              <p className="lead">
+              {resumeData.testimonials2} <p id="testimonialName">- Joyce Riggs / Accounts Payable at Heartland Pump</p>
               </p>
             </div>
           </div>
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <h4>
-                    {resumeData.name} | {resumeData.role}
-                </h4>
 
-                <img src={headshot} alt='Tracy Golden'></img>
               </div>
             </aside>
           </div>
