@@ -75,7 +75,7 @@
     {
       "name": "Project 2 - Jeopardy Trivia Game",
       "description": "Requirements included the following must-haves: use a Node and Express server, use Handlebars.js as the template engine, backed by a MySQL database with a Sequelize ORM, utilize both GET and POST routes for retrieving and adding new data, deployed using Heroku (with data) utilize at least one new library/package/or technology that we haven't discussed in class, a polished front-end/UI, a folder structure that meets the MVC paradigm, good quality coding standards and protect API keys in Node with environment variables. User Story: As a Jeopardy and/or trivia enthusiast, I want to play a game by creating a login, clicking the game option, and then I can keep track of my scores.",
-      "imgurl": "images/portfolio/phone.jpg"
+      "imgurl": "images/portfolio/gameboard-screenshot.png"
     },
     {
       "name": "Homework Assignment - Budget Tracker",

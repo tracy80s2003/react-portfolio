@@ -98,16 +98,16 @@ nav ul li {
 
 #contact {
   margin-top: 5rem;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 /*** ABOUT ***/
 
 #about {
   margin-top: 5rem;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .headshot {
@@ -120,8 +120,8 @@ nav ul li {
 
 #testimonials {
   margin-top: 5rem;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
   font-style: italic;
 }
 
@@ -133,8 +133,8 @@ nav ul li {
 
 #portfolio {
   margin-top: 5rem;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
   margin-bottom: 10rem;
 }
 

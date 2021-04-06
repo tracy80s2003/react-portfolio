@@ -9,9 +9,7 @@ const Home = () => {
                 <h1>{name} | {role}</h1>
                 <a href="/contact" className="btn-main-offer">Contact Me</a>
             </div>
-            {/* <Card project={portfolio[0]}></Card>
-            <Card project={portfolio[1]}></Card>
-            <Card project={portfolio[2]}></Card> */}
+
         </div>
     )
 }
