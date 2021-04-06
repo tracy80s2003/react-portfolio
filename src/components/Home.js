@@ -1,6 +1,6 @@
-import React from 'react'
-import Card from './Card'
-import {name, role, portfolio} from './resumeData.json'
+import React from 'react';
+import Card from './Card';
+import {name, role, portfolio} from './resumeData.json';
 
 const Home = () => {
     return (
@@ -9,6 +9,9 @@ const Home = () => {
                 <h1>{name} | {role}</h1>
                 <a href="/contact" className="btn-main-offer">Contact Me</a>
             </div>
+            {/* <Card project={portfolio[0]}></Card>
+            <Card project={portfolio[1]}></Card>
+            <Card project={portfolio[2]}></Card> */}
         </div>
     )
 }

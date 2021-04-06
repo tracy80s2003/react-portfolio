@@ -91,3 +91,35 @@ nav ul li {
     background-color: black;
   }
 }
+
+/*** CONTACT ***/
+
+#contact {
+  margin-top: 5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+/*** ABOUT ***/
+
+#about {
+  margin-top: 5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+/*** TESTIMONIALS ***/
+
+#testimonials {
+  margin-top: 5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+/*** PORTFOLIO ***/
+
+#portfolio {
+  margin-top: 5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
