@@ -53,7 +53,7 @@ Updated LinkedIn Profile with the new skills you've acquired since the last time
 
 ## Screenshot
 
-<img src="./public/react-portfolio.png" />
+<img src="./public/images/reactPortfolio.gif" />
 
 ## Deploying the Application
 

@@ -20,6 +20,7 @@ export default class Portfolio extends Component {
             <div className="card-body">
               <h5 className="card-title">&nbsp;</h5>
               <p className="card-text"><Card project={portfolio[0]}></Card></p>
+              <p class="card-text"><small class="text-muted">View Repo / View Project</small></p>
             </div>
         </div>
       </div>
@@ -30,6 +31,7 @@ export default class Portfolio extends Component {
             <div className="card-body">
               <h5 className="card-title">&nbsp;</h5>
               <p className="card-text"><Card project={portfolio[1]}></Card></p>
+              <p class="card-text"><small class="text-muted">View Repo / View Project</small></p>
             </div>
         </div>
       </div>
@@ -40,6 +42,7 @@ export default class Portfolio extends Component {
             <div className="card-body">
               <h5 className="card-title">&nbsp;</h5>
                 <p className="card-text"><Card project={portfolio[2]}></Card></p>
+                <p class="card-text"><small class="text-muted">View Repo / View Project</small></p>
             </div>
         </div>
       </div>
@@ -50,6 +53,7 @@ export default class Portfolio extends Component {
             <div className="card-body">
               <h5 className="card-title">&nbsp;</h5>
                 <p className="card-text"><Card project={portfolio[3]}></Card></p>
+                <p class="card-text"><small class="text-muted">View Repo / View Project</small></p>
             </div>
         </div>
       </div>
@@ -60,6 +64,7 @@ export default class Portfolio extends Component {
             <div className="card-body">
               <h5 className="card-title">&nbsp;</h5>
                 <p className="card-text"><Card project={portfolio[4]}></Card></p>
+                <p class="card-text"><small class="text-muted">View Repo / View Project</small></p>
             </div>
         </div>
       </div>
@@ -70,6 +75,7 @@ export default class Portfolio extends Component {
             <div className="card-body">
               <h5 className="card-title">&nbsp;</h5>
                 <p className="card-text"><Card project={portfolio[5]}></Card></p>
+                <p class="card-text"><small class="text-muted">View Repo / View Project</small></p>
             </div>
         </div>
       </div>
