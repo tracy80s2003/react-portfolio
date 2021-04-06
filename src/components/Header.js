@@ -15,16 +15,16 @@ const Header = () => {
                             <a className="nav-link" href="/#">Home<span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#">About</a>
+                            <a className="nav-link" href="/about">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#">Portfolio</a>
+                            <a className="nav-link" href="/portfolio">Portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#">Testimonials</a>
+                            <a className="nav-link" href="/testimonials">Testimonials</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#">Contact</a>
+                            <a className="nav-link" href="/contact">Contact</a>
                         </li>
                     </ul>
                 </div>

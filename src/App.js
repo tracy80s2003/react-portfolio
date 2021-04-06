@@ -3,19 +3,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import Footer from './components/Footer';
-import resumeData from './components/resumeData';
+// import resumeData from './components/resumeData';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Contact from './components/Contact';
 import Testimonials from './components/Testimonials';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <>
-    <Header />
-    <Home />
-    <Footer />
-    </>
+    <Router>
+      <Header />
+      <Switch>
+        <Route path='/' component={Home} exact/>
+        <Route path='/contact' component={Contact} exact />
+      </Switch>
+    {/* <Home /> */}
+    {/* <Footer /> */}
+    </Router>
   );
 }
 
