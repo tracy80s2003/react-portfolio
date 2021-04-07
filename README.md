@@ -62,8 +62,6 @@ This app should be deployed to GitHub Pages using Create React App docs.
 
 ***
 
-URL to Deployed Application: X
-
 https://github.com/tracy80s2003/react-portfolio
 
 https://tracy80s2003.github.io/react-portfolio/
