@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import resumeData from './resumeData.json';
 import headshot from '../Images/headshot.jpeg';
-import { Document } from 'react-pdf'
+// import { Document } from 'react-pdf'
+import pdf from '../documents/resume.pdf'
 
 export default class About extends Component {
   render() {
@@ -18,7 +19,7 @@ export default class About extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-              <Document file="./public/documents/resume.pdf" />
+              PDF: <a href={pdf}>Click here to view RESUME</a>
               </p>
             </div>
           </div>

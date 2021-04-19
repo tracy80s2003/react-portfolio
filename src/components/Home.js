@@ -1,7 +1,7 @@
 import React from 'react';
 // import Card from './Card';
 import { Link } from 'react-router-dom';
-import {name, role, portfolio} from './resumeData.json';
+import {name, role} from './resumeData.json';
 
 const Home = () => {
     return (
