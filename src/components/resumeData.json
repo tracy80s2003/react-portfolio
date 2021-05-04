@@ -83,6 +83,11 @@
       "name": "Homework Assignment - Budget Tracker",
       "description": "Requirements included the user being able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.",
       "imgurl": "public/images/budget-tracker.gif"
+    },
+    {
+      "name": "Project 3 - Worldy Meals",
+      "description": "Requirements included the following must-haves: use ReactJS in some way (even if minimal), use a Node AND Express Web server, backed by a MySql OR MongoDB Database with a Sequelize or Mongoose ORM, both GET AND POST routes for retrieving and adding new data, deployed using Heroku (with data), utilize at least two libraries, packages, or technologies that we haven’t discussed, allow for or involve the authentication of users in some way, a polished frontend/UI, a folder structure that meets the MVC paradigm, meet good quality coding standards (indentation, scoping, naming) and must NOT expose sensitive API key information on the server. User Story: As a health-conscious consumer who enjoys cooking, I want a convenient, large international variety of quick and easy meal prep options with nutritional facts, and then I can pick up each meal kit which includes all the necessary ingredients to cook each meal.",
+      "imgurl": "public/images/worldly-meals.gif"
     }
   ],
   "testimonials1": "Working with Tracy has always been wonderful. She is self-driven, knowledgeable in E-Mail Marketing and thrives in a collaborative environment. During my last two years at ISACA, I had the privilege of working with her on the Digital Marketing team. Tracy was a reliable colleague who was always more than happy to assist with any task that required her input. Aside from her strong background in Digital Marketing, Tracy is a very personable team-member and was someone that I always looked forward talking to. Tracy's work ethic and helpfulness are just some of the characteristics that would make her a great asset to any team.",

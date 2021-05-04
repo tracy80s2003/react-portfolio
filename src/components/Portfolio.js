@@ -7,6 +7,7 @@ import budgetTracker from '../Images/budgetTracker.gif';
 import gameboard from '../Images/gameboard.png';
 import workdayScheduler from '../Images/workdayScheduler.png';
 import recording from '../Images/recording.gif';
+import worldlymeals from '../Images/worldly-meals.gif';
 
 export default class Portfolio extends Component {
   render() {
@@ -79,6 +80,18 @@ export default class Portfolio extends Component {
             </div>
         </div>
       </div>
+
+      <div className="col">
+        <div className="card">
+          <img src={worldlymeals} className="card-img-top" alt="Worldly Meals" />
+            <div className="card-body">
+              <h5 className="card-title">&nbsp;</h5>
+                <p className="card-text"><Card project={portfolio[6]}></Card></p>
+                <p class="card-text"><small class="text-muted"><a target="_blank" rel="noreferrer" href="https://github.com/glynismullankwok/worldly-meals">View Repo</a> / <a target="_blank" rel="noreferrer" href="https://aqueous-ocean-13819.herokuapp.com/">View Project</a></small></p>
+            </div>
+        </div>
+      </div>
+
     </div>
     </section>
   );

@@ -136,10 +136,14 @@ nav ul li {
 /*** PORTFOLIO ***/
 
 #portfolio {
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-left: 10rem;
   margin-right: 10rem;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
+}
+
+.card {
+  margin-bottom: 3rem;
 }
 
 /*** STICKY FOOTER ***/
